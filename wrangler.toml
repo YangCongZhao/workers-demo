@@ -23,8 +23,8 @@ enabled = true
 
 # Environment Variables
 # https://developers.cloudflare.com/workers/wrangler/configuration/#environment-variables
-# [vars]
-# MY_VARIABLE = "production_value"
+[vars]
+DEEPSEEK_API_KEY = "sk-b786a32011e942eaab323966dbb29d47"
 
 # Note: Use secrets to store sensitive data.
 # https://developers.cloudflare.com/workers/configuration/secrets/

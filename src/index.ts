@@ -1,7 +1,7 @@
 import { createSchema, createYoga } from "graphql-yoga";
 
 export interface Env {
-	DEEPSEEK_API_KEY: 'sk-b786a32011e942eaab323966dbb29d47';
+	DEEPSEEK_API_KEY: string;
 }
 
 // DeepSeek API 请求体的接口定义
